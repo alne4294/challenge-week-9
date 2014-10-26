@@ -92,61 +92,60 @@ I think that highly accessible machine learning tools will be a great asset for 
 
 ### 1 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.({"actor.login":"doubleshow"})
 
 ![screenshot](2c1.png?raw=true)
 
 ### 2 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.findOne({"actor.login":"doubleshow"},{'actor':1})
 
 ![screenshot](2c2.png?raw=true)
 
 ### 3 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.find({"actor.login":{$in:["actor.login","doubleshow"]}}, {'actor.login':1, 'created_at':1});
 
 ![screenshot](2c3.png?raw=true)
 
 ### 4 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.findOne({'type':'PushEvent'});
 
 ![screenshot](2c4.png?raw=true)
 
 ### 5 (4 points)
 
-> db.course_events.[complete this query]
-
+> db.gitEvents.find({'type':{$in:["PushEvent"]}},{'payload.commits.author.name':1});
 ![screenshot](2c5.png?raw=true)
 
 ### 6 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.[complete this query]
 
 ![screenshot](2c6.png?raw=true)
 
 ### 7 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.[complete this query]
 
 ![screenshot](2c7.png?raw=true)
 
 ### 8 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.[complete this query]
 
 ![screenshot](2c8.png?raw=true)
 
 ### 9 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.[complete this query]
 
 ![screenshot](2c9.png?raw=true)
 
 ### 10 (4 points)
 
-> db.course_events.[complete this query]
+> db.gitEvents.[complete this query]
 
 ![screenshot](2c10.png?raw=true)
 
@@ -157,7 +156,7 @@ I think that highly accessible machine learning tools will be a great asset for 
 
 {question-in-plain-English}
 
-> db.course_events.[complete this query]
+> db.gitEvents.[complete this query]
 
 ![screenshot](22c1.png?raw=true)
 
@@ -165,6 +164,6 @@ I think that highly accessible machine learning tools will be a great asset for 
 
 {question-in-plain-English}
 
-> db.course_events.[complete this query]
+> db.gitEvents.[complete this query]
 
 ![screenshot](22c2.png?raw=true)
