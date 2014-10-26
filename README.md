@@ -1,12 +1,10 @@
 # Name
 
-write-your-name
+Alexia Newgord
 
 # How many points have you earned?
 
 0/100
-
-(Make your own calculation and replace the number 0 with the points you think you've earned.)
 
 # How many hours have you spent on this?
 
@@ -14,7 +12,7 @@ fill-in-your-answer
 
 # When did you first start working on this week's learning challenges?
 
-fill-in-your-answer
+Saturday
 
 # What is the most difficult part about this week's challenge?
 
@@ -24,11 +22,13 @@ fill-in-your-answer
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-article-about-machine-learning-use-for-big-data)
+[Microsoft launches a machine learning service from its Azure cloud](http://venturebeat.com/2014/06/16/microsoft-launches-a-machine-learning-service-from-its-azure-cloud/)
 
 ## Discuss how you may apply the machine learning technique mentioned in this article to another interesting problem (6 points).
 
-fill-in-your-answer
+We can already see applications of this kind of technology in Google's new Machine Learning strategies for its online spreadsheets (see this [website](http://venturebeat.com/2014/10/13/google-uses-machine-learning-to-fill-in-the-blanks-in-your-spreadsheet/)).  
+
+I think that highly accessible machine learning tools will be a great asset for small to mid-size companies that can't necessarily afford to research and design their own expensive machine learning technologies.  The article makes it sound that, when this project is formally released, it will be particularly useful for retail and other business intelligence.
 
 # D3 IV
 
@@ -36,43 +36,43 @@ fill-in-your-answer
 
 # 1. (3 points)
 
-![image](image.png?raw=true)
+![image](cp1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](cp1.html)
 
 # 2. (3 points)
 
-![image](image.png?raw=true)
+![image](cp2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](cp2.html)
 
 # 3. (3 points)
 
-![image](image.png?raw=true)
+![image](cp3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](ccp3.html)
 
 # 4. (3 points)
 
-![image](image.png?raw=true)
+![image](cp4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](cp4.html)
 
 ## Challenges (4 points x 3 = 12 points)
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](c1.png?raw=true)
 
 # 2. (4 points)
 
-![image](image.png?raw=true)
+![image](c2.png?raw=true)
 
 # 3. (4 points)
 
-![image](image.png?raw=true)
+![image](c3.png?raw=true)
 
-[challenge3](challenge3.html)
+[challenge3](c3.html)
 
 
 
@@ -82,11 +82,11 @@ fill-in-your-answer
 
 ### 1 (6 points)
 
-[mongodb js code collecting github events about our course](mongodb-github.js)
+[mongodb js code collecting github events about our course](2cp1.js)
 
 ### 2 (6 points)
 
-![terminal output of mongodb query](screenshot.png?raw=true)
+![terminal output of mongodb query](2cp2.png?raw=true)
 
 ## Challenge 1 (4 points x 10 = 40 points)
 
@@ -94,61 +94,61 @@ fill-in-your-answer
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c1.png?raw=true)
 
 ### 2 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c2.png?raw=true)
 
 ### 3 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c3.png?raw=true)
 
 ### 4 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c4.png?raw=true)
 
 ### 5 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c5.png?raw=true)
 
 ### 6 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c6.png?raw=true)
 
 ### 7 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c7.png?raw=true)
 
 ### 8 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c8.png?raw=true)
 
 ### 9 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c9.png?raw=true)
 
 ### 10 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](2c10.png?raw=true)
 
 
 ## Challenge 2 (8 points x 2 = 16 points) 
@@ -159,7 +159,7 @@ fill-in-your-answer
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](22c1.png?raw=true)
 
 ### 2 (8 points)
 
@@ -167,4 +167,4 @@ fill-in-your-answer
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](22c2.png?raw=true)
