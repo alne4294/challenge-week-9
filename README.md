@@ -4,11 +4,11 @@ Alexia Newgord
 
 # How many points have you earned?
 
-0/100
+100/100
 
 # How many hours have you spent on this?
 
-fill-in-your-answer
+6.5
 
 # When did you first start working on this week's learning challenges?
 
@@ -16,7 +16,7 @@ Saturday
 
 # What is the most difficult part about this week's challenge?
 
-fill-in-your-answer
+Pretty straight forward this week... the checkpoint readings took a while, but were well worth the time.
 
 # Show and tell (8 points)
 
@@ -92,7 +92,7 @@ I think that highly accessible machine learning tools will be a great asset for 
 
 ### 1 (4 points)
 
-> db.gitEvents.({"actor.login":"doubleshow"})
+> db.gitEvents.findOne({"actor.login":"doubleshow"})
 
 ![screenshot](2c1.png?raw=true)
 
@@ -154,16 +154,16 @@ I think that highly accessible machine learning tools will be a great asset for 
 
 ### 1 (8 points)
 
-{question-in-plain-English}
+When have I opened an issue?
 
-> db.gitEvents.[complete this query]
+> db.gitEvents.find({'type':{$in:["IssuesEvent"]},'payload.issue.user.login' :"alne4294", 'payload.action':'opened'},{'payload.issue.user.login':1, 'created_at':1});
 
 ![screenshot](22c1.png?raw=true)
 
 ### 2 (8 points)
 
-{question-in-plain-English}
+How many issues had over two comments?
 
-> db.gitEvents.[complete this query]
+> db.gitEvents.count({"payload.issue.comments":{$gt:2}})
 
 ![screenshot](22c2.png?raw=true)
