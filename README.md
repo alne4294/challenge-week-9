@@ -139,13 +139,13 @@ I think that highly accessible machine learning tools will be a great asset for 
 
 ### 9 (4 points)
 
-> db.gitEvents.[complete this query]
+> db.gitEvents.find({'type':{$in:["IssuesEvent"]},'payload.issue.state' :'open'},{'payload.issue.user.login':1, 'payload.issue.state':1});
 
 ![screenshot](2c9.png?raw=true)
 
 ### 10 (4 points)
 
-> db.gitEvents.[complete this query]
+> db.gitEvents.find({'type':{$in:["IssuesEvent"]},'payload.issue.comments' :{$gt:0}},{'payload.issue.user.login':1, 'payload.issue.comments':1});
 
 ![screenshot](2c10.png?raw=true)
 
